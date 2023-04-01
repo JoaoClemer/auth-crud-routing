@@ -9,8 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" routerLinkActive="active" routerLink="login">Login</a>
-        <a class="nav-link" routerLinkActive="active" routerLink="cursos">Cursos</a>
-        <a class="nav-link" routerLinkActive="active" [routerLink]="['curso', idCurso.value]">Curso Angular</a>
+        <a class="nav-link" routerLinkActive="active" routerLink="cursos" [queryParams]="{pagina:1}">Cursos</a>
       </div>
     </div>
   </div>
