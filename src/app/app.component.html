@@ -10,6 +10,7 @@
       <div class="navbar-nav">
         <a class="nav-link" routerLinkActive="active" routerLink="login">Login</a>
         <a class="nav-link" routerLinkActive="active" routerLink="cursos" [queryParams]="{pagina:1}">Cursos</a>
+        <a class="nav-link" routerLinkActive="active" routerLink="alunos">Alunos</a>
       </div>
     </div>
   </div>
@@ -18,6 +19,5 @@
 
 
 <div class="container">
-    <input type="text" #idCurso>
     <router-outlet></router-outlet>
 </div>

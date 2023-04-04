@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { CursosModule } from './cursos/cursos.module';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { AlunosModule } from './alunos/alunos.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     CursosModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AlunosModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

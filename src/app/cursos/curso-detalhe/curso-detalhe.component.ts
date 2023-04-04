@@ -17,7 +17,6 @@ export class CursoDetalheComponent implements OnInit, OnDestroy{
   constructor(private route: ActivatedRoute,
     private cursosService:CursosService,
     private router: Router){
-    console.log(route);
   }
 
   ngOnInit(){
@@ -29,7 +28,7 @@ export class CursoDetalheComponent implements OnInit, OnDestroy{
       if(this.curso == null){
         this.router.navigate(['naoEncontrado']);
       }
-    })
+    });
 
   }
 
