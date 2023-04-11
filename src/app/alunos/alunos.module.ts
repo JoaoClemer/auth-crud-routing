@@ -20,7 +20,6 @@ import { FormsModule } from '@angular/forms';
     FormsModule
   ],
   providers:[
-    AlunosService
   ]
 })
 export class AlunosModule { }

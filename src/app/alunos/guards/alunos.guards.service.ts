@@ -15,8 +15,8 @@ export class AlunosGuards implements CanActivateChild{
   ): Observable<boolean> | boolean{
     if(state.url.includes('editar')){
 
-      alert('Sem permissão para editar!')
-      return false;
+      //alert('Sem permissão para editar!')
+      //return false;
 
     }
     return true;
